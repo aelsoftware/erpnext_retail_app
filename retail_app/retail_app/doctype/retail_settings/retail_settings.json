@@ -1,0 +1,24 @@
+{
+    "doctype": "DocType",
+    "name": "Retail Settings",
+    "module": "Retail App",
+    "custom": 1,
+    "fields": [
+        {
+            "fieldname": "walk_in_customer",
+            "label": "Walk-in Customer",
+            "fieldtype": "Link",
+            "options": "Customer",
+            "reqd": 1
+        }
+    ],
+    "permissions": [
+        {
+            "role": "System Manager",
+            "read": 1,
+            "write": 1,
+            "create": 1,
+            "delete": 1
+        }
+    ]
+}
